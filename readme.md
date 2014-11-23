@@ -1,16 +1,17 @@
-==================================================================
 
 Input dataset is given per assignment:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 and contains for each record:
-==================================================================
+
+
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
-==================================================================
+
+
 
 The transformations are as follows: [ the same steps are described in the code itself]
 
@@ -37,7 +38,8 @@ The transformations are as follows: [ the same steps are described in the code i
 15. produce a clean data set
 
 16. produce an output file "analysis.txt" in the working directory 
-==================================================================
+
+
 
 Resulting dataset contains data with the average of each variable for each activity and each subject.
 
@@ -55,7 +57,8 @@ Activity labels have the range of values from 1 to 6.
 Subject_id  is a range of values from 1 to 30.
 
 The dataset includes the following files:
-=========================================
+
+
 
 - 'README.md'
 
